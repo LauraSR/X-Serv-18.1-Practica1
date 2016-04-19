@@ -1,5 +1,3 @@
-#Laura Sanz Ruano
-
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 import webapp
@@ -75,5 +73,5 @@ class urlApp(webapp.webApp):
             htmlBody = "<html><body> Metodo desconocido </body></html>"
         return (httpCode, htmlBody)
 
-        if __name__ == "__main__":
-            testWebApp = contentApp("localhost", 1234)
+if __name__ == "__main__":
+    testWebApp = urlApp("localhost", 1235)
